@@ -47,6 +47,6 @@ class BuildPaths
                 }
             }
         }
-        $analysis->swagger->paths = array_values($paths);
+        $analysis->swagger->paths = $paths;
     }
 }
